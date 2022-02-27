@@ -1,0 +1,40 @@
+[{
+        "item": "Aashirvaad Aata",
+        "qty": "5lb",
+        "tags": "wheat, flour"
+    },
+    {
+        "item": "Haldiram fatafat bhel",
+        "qty": "150g",
+        "tags": "snack, bhujiya"
+    },
+    {
+        "item": "Haldiram Kadhi Pakoda",
+        "qty": "300g",
+        "tags": "instant, ready to eat"
+    },
+    {
+        "item": "MDH Hing",
+        "qty": "50g",
+        "tags": "spice"
+    },
+    {
+        "item": "Haldiram soya stick",
+        "qty": "150g",
+        "tags": "snack, bhujiya"
+    },
+    {
+        "item": "Amul cow ghee",
+        "qty": "1l",
+        "tags": "health, butter"
+    },
+    {
+        "item": "Bru Green Label",
+        "qty": "500g",
+        "tags": "coffee"
+    }, {
+        "item": "Himalaya amalaki tabs",
+        "qty": "250mg",
+        "tags": "herbal, medicine, constipation"
+    }
+]

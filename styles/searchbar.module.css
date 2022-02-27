@@ -6,6 +6,7 @@
     height:6rem;
     padding: 1.6rem;
     background-color: var(--banana);
+    margin-bottom: 1.6rem;
 }
 
 .searchInput {

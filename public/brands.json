@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Nestle",
+        "image" : "maggi.gif"
+    },
+    {
+        "name" : "priya",
+        "image" : "priya.jpg"
+    },
+    {
+        "name" : "parle g",
+        "image" : "parle.png"
+    },
+    {
+        "name" : "britannia",
+        "image" : "britannia.png"
+    },
+    {
+        "name" : "amul",
+        "image" : "amul.png"
+    },
+    {
+        "name" : "saffola",
+        "image" : "saffola.png"
+    },
+    {
+        "name" : "deep",
+        "image" : "deep.webp"
+    },
+    {
+        "name" : "house of spices",
+        "image" : "houseofspices.png"
+    },
+    {
+        "name" : "dabur",
+        "image" : "dabur.png"
+    },
+    {
+        "name" : "aashirvaad",
+        "image" : "aashirvaad.png"
+    }
+]

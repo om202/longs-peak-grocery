@@ -1,0 +1,9 @@
+.brandlist {
+    background-color: var(--darker-background);
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: scroll;
+}
