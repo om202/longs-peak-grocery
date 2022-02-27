@@ -1,5 +1,6 @@
 import styles from "../styles/main.module.css";
 import Brands from "./brands/brands";
+import ItemsMain from "./items/itemsMain";
 import Navbar from "./navbar";
 import Searchbar from "./searchbar";
 
@@ -13,6 +14,7 @@ export default function Main() {
         <div className={styles.bodyItems}>
           <Searchbar />
           <Brands/>
+          <ItemsMain/>
         </div>
       </div>
     </div>

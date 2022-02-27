@@ -1,0 +1,8 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+}

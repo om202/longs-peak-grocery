@@ -16,9 +16,9 @@ export default function Home() {
         <Main/>
       </div>
 
-      <footer>
+      {/* <footer>
       <h3>This is Footer</h3>
-      </footer>
+      </footer> */}
     </div>
   )
 }
