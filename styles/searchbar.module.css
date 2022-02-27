@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height:6rem;
+    padding: 1.6rem;
+    background-color: var(--banana);
+}
+
+.searchInput {
+    width: 80%;
+    margin-right: 1.6rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--subtext);
+}
+
+.searchInput:hover, .searchInput:active {
+    border: 4px solid var(--orange);
+}
+
+.searchButton {
+    background-color: var(--tomato);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 7rem;
+}
+
+.searchButton:hover {
+    background-color: var(--tomato-dark);
+    cursor: pointer;
+}
+
+.searchIcon {
+    margin-right: 0.6rem;
+}
+
+

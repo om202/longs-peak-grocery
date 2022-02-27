@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixednav {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.body {
+    margin-top: 6rem;
+    padding: 1.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyItems {
+    width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+    .bodyItems {
+        width: 100%;
+    }
+}
