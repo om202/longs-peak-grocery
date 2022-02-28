@@ -12,7 +12,7 @@ export default function Searchbar({ setSearchTerm, liveSearchResults }) {
     searchInput.current.focus();
   }, [])
 
-  if (liveSearchResults.length === 0) {
+  if (liveSearchResults?.length === 0) {
     redShadow = {
       boxShadow: "0 10px 20px rgba(255,0,0,0.19), 0 6px 6px rgba(255,0,0,0.23)",
       border: "none",

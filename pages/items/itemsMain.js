@@ -8,7 +8,7 @@ export default function ItemsMain({itemsData}) {
             <h2>Items on self</h2>
             <div className={styles.main}>
             {
-                itemsData.map((item, index)=>{
+                itemsData?.map((item, index)=>{
                     const randomClr = randomColor({hue: 'red', luminosity: 'bright'});
                    return <Item key={index} title={item.item} qty={item.qty} color={randomClr}/>
                 })

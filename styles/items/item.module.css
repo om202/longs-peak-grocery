@@ -37,8 +37,14 @@
 
 @media only screen and (max-width: 768px) {
     .main {
-        width: 8rem;
-        height: 9rem;
+        width: 7.7rem;
+        height: 8.7rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .itemTitle {
+        font-size: 1.1rem;
     }
 
 }
