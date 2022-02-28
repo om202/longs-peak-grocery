@@ -9,6 +9,7 @@ export default function Searchbar({ setSearchTerm, liveSearchResults }) {
 
   useEffect(()=>{
     searchInput.current.value = ""
+    searchInput.current.focus();
   }, [])
 
   if (liveSearchResults.length === 0) {
@@ -21,6 +22,7 @@ export default function Searchbar({ setSearchTerm, liveSearchResults }) {
       color: "red",
     };
   } else {
+    // window.scrollTo(0,0)
     redShadow = {};
     redText = {};
   }
@@ -37,7 +39,7 @@ export default function Searchbar({ setSearchTerm, liveSearchResults }) {
           }}
           className={styles.searchInput}
           type="text"
-          placeholder="Search..."
+        placeholder="Search Longs Peaks..."
         />
       </div>
     </form>

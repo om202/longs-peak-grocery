@@ -1,6 +1,8 @@
 import { useState } from "react";
 import styles from "../styles/main.module.css";
 import Brands from "./brands/brands";
+import FloatingCall from "./floatingCall";
+import FloatingLocation from "./floatingLocation";
 import GalleryMain from "./gallery/galleryMain";
 import ItemsMain from "./items/itemsMain";
 import LiveSearch from "./liveSearch";
@@ -44,6 +46,8 @@ export default function Main() {
           <ItemsMain itemsData={itemsData} />
         </div>
       </div>
+      <FloatingCall/>
+      <FloatingLocation/>
     </div>
   );
 }

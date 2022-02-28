@@ -1,5 +1,6 @@
 import Item from './item'
 import styles from '/styles/items/itemsMain.module.css'
+import randomColor from 'randomcolor'
 
 export default function ItemsMain({itemsData}) {
     return (
@@ -8,7 +9,8 @@ export default function ItemsMain({itemsData}) {
             <div className={styles.main}>
             {
                 itemsData.map((item, index)=>{
-                   return <Item key={index} title={item.item} qty={item.qty}/>
+                    const randomClr = randomColor({hue: 'red', luminosity: 'bright'});
+                   return <Item key={index} title={item.item} qty={item.qty} color={randomClr}/>
                 })
             }
             </div>

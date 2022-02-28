@@ -1,10 +1,10 @@
 import styles from '/styles/items/item.module.css'
 
-export default function Item({title, qty}){
+export default function Item({title, qty, color}){
     return(
         <div className={styles.main}>
-            <img className={styles.itemImage} src='images/fakeitem.png' />
-            <span className={styles.itemTitle}>{title}</span>
+            {/* <div className={styles.itemImage} /> */}
+            <span className={styles.itemTitle} style={{"color": color}}>{title}</span>
             <span className={styles.itemQty}>{qty}</span>
         </div>
     )

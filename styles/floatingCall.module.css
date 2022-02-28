@@ -1,0 +1,63 @@
+.main {
+    background-color: transparent;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    bottom: 1rem;
+    right: 0rem;
+}
+
+.main:hover {
+    text-decoration: none;
+}
+
+.submain {
+    height: 4.6rem;
+    width: 4.6rem;
+    color: black;
+    display: flex;
+    border: 4px solid rgba(1, 177, 25, 0.42);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+    background-color: rgba(143, 241, 143, 0.281);
+}
+
+.submain:hover, .submain:focus, .submain:active {
+    box-shadow: 0 14px 28px rgba(1, 177, 25, 0.25), 0 10px 10px rgba(1, 177, 25, 0.22);
+
+}
+
+.icon {
+    font-size: 1.6rem;
+}
+
+.callnow {
+    margin-top: 0.6rem;
+    font-size: large;
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .submain {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    .callnow {
+        font-size: 1rem;
+    }
+}
+
