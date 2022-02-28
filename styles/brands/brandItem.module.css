@@ -3,18 +3,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 6.5rem;
-    margin-right: 0.6rem;
+    margin-right: 1rem;
 }
 
-.title {
-    color: var(--subtext);
-    font-size: 1.2rem;
-    margin-top: 0.6rem;
-    text-transform: capitalize;
-}
 
 .brandImage {
-    max-width: 10rem;
-    height: 100%;
+    max-width: 7rem;
+    max-height: 100%;
 }

@@ -5,7 +5,6 @@ export default function BrandItem({ name, image }) {
   return (
     <div className={styles.main}>
       <img src={imgsrc} className={styles.brandImage} />
-      <span className={styles.title}>{name}</span>
     </div>
   );
 }

@@ -1,9 +1,32 @@
 .brandlist {
-    background-color: var(--darker-background);
-    padding: 0.6rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    overflow: scroll;
+    overflow: hidden;
+}
+
+.listHolder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowButtons {
+    background-color: var(--background);
+    width: 3rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    font-size: large;
+    opacity: 0.8;
+    border: 2px solid rgb(231, 230, 230);
+    cursor: pointer;
+}
+
+.arrowButtons:hover {
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }

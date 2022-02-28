@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     color: var(--subtext);
-    margin-left: 0.6rem;
-    margin-bottom: 0.6rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .itemImage {
@@ -20,11 +20,6 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 1rem;
     font-weight: 600;
     text-transform: capitalize;
-}
-
-.itemQty {
-    font-size: 0.9rem;
 }
